@@ -1,0 +1,7 @@
+Compile:
+    $ gcc -DLINUX -ansi -I/home/tomxue/workspace/Linux___apue.2e/include -Wall -D_GNU_SOURCE   -L./  threadid.c  libapue.a -pthread -o threadid
+
+Run result:
+    $ ./threadid
+    main thread: pid 25008 tid 3076081344 (0xb75946c0)
+    new thread:  pid 25008 tid 3076078400 (0xb7593b40)
