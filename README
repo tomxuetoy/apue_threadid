@@ -1,5 +1,5 @@
 Compile:
-    $ gcc -DLINUX -ansi -I/home/tomxue/workspace/Linux___apue.2e/include -Wall -D_GNU_SOURCE   -L./  threadid.c  libapue.a -pthread -o threadid
+    $ gcc -DLINUX -ansi -I -Wall -D_GNU_SOURCE   -L./  threadid.c  libapue.a -pthread -o threadid
 
 Run result:
     $ ./threadid
